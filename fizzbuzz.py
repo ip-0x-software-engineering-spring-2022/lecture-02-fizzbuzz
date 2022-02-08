@@ -21,5 +21,5 @@ if __name__ == '__main__':
     ap.add_argument('number', type=int)
     cli = ap.parse_args()
 
-    for i in range(cli.number):
+    for i in range(1, cli.number + 1):
         fizzbuzz(i)
